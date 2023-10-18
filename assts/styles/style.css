@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f7;
+}
+/* headings */
+h1{
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 10px;
+    text-align:center;
+}
+.navbar ul{
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 1rem 0;
+   }
+   .navbar li{
+       list-style: none;
+       margin: 0px 15px;
+   }
+   .navbar li a{
+       padding: 2px 2px;
+       text-decoration: none;
+       color: black;
+   }
+   .navbar li a {
+    font-size: 0.8454rem;
+}
+.main-header > p{
+    text-align: center;
+}
+.banner-1{
+    background-image: url(../images/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 18rem 0;
+    position: relative;
+}
+.inner-content {
+    color: #fdfdfde8;
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 34;
+}
+.inner-content h1 {
+color: #fff;
+margin-bottom: 0;
+}
+.inner-content a{
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #2997ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 50px;   
+}
+.banner-2{
+    background-image: url(../images/hero_iphone14_yellow__eun20sn4imi6_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 18rem 0;
+    position: relative;
+}
+h1.color{
+    color: black;
+    margin-bottom: 0;
+    width: 35rem;
+}
+
+span.sm-title {
+    display: block;
+    font-size: 50%;
+    margin: 16px 0 20px;
+    font-weight: normal;
+}
+
+.inner-content h3 {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.banner-4{
+    background-image: url(../images/hero_macbook_air_15_midnight__ct0pgwizvree_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 18rem 0;
+    position: relative;
+}
+
+.banner-1 i, .banner-2 i{
+    font-size:2rem;
+}.banner-1 a, .banner-2 a{
+    display:flex;
+    align-items: center;
+}
+.banner-1 a:first-child, .banner-2 a:first-child {
+    margin-left: 0;
+}
+.banner-3{
+   
+    position: relative;
+}
+h2{
+    text-align: center;
+    margin-top: -40px;
+}
+.link{
+    text-align: center;
+    text-decoration: solid;
+}
+.banner-0{
+    padding: 18rem 0;
+    position: relative;
+}
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 49%;
+    position: relative;
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+.gap-1 {
+    margin: 6px;
+    overflow: hidden;
+}
+
+/* ext */
+.inner_cnt {
+    padding: 5rem;
+    background: #f3f2f5;
+    padding-bottom: 8rem;
+}
+.inner_cnt h1 {
+    font-size: 2.3rem;
+    width: 400px;
+    max-width: 100%;
+}
+.inner_cnt video {
+    margin-top: 5.3rem;
+    transform: scale(2);
+    overflow: hidden;
+}
+.image_holder {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.image_holder img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.inner-content a i {
+    font-size: 1.4rem;
+}
+.color img{
+    width: 50px;
+    margin-top: 18rem;
+}
+            
+.image_holder h1{
+    font-size: 2.3rem;
+    width: 400px;
+    max-width: 100%;
+}
+.image_holder h3{
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.sm-title.co{
+    color: rgba(202, 54, 54, 0.502);
+}
+.inner-content h4{
+    color: #f9f9f9;
+ margin-top: 6px;
+}
+.size{
+   max-height: 100%;
+    width: 100%;
+    
+}
+.sc-select.image_holder > img {
+    background: #fbfbfd !important;
+    padding: 1rem 0 13rem;
+}
+/* swiper secytion is started */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+  }
+
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+  }
+  
+/* slider custom setting */
+section.slider_section {
+    width: 100%;
+    height: 750px;
+    padding-bottom: 2.2rem;
+}
+.slider_section{position: relative;}
+.sld_imgholder {
+    height: 100%;
+    width: 100%;
+}
+
+.sld_imgholder img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.paragraph
+    {
+        margin: 0 150px;
+        color: #6e6e73;
+        font-size: 12px;
+        line-height: 1.33337;
+        font-weight: 400;
+        letter-spacing: -.01em;
+        font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.col-md-2 {
+    width: 16%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f7;
+}
+.col-md-2 li{
+    list-style: none;
+    font-size: 13px;
+    line-height: 2.11111;
+    font-weight: 400;
+    color: #6e6e73;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.bot-p{
+    margin: 0 150px;
+    font-size: 13px;
+    line-height: 1.33337;
+    font-weight: 400;
+    color: #6e6e73;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
